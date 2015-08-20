@@ -1,0 +1,228 @@
+@font-face {
+	font-family: kimberley;
+	src: url(../fonts/kimberley_bl.otf);
+}
+* {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+p {
+	line-height: 150%;
+	margin-bottom: 7px;
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #009BD4;
+	margin: 10px 0;
+}
+a {
+	font-weight: 700;
+	color: #61BFF3;
+}
+html {
+	background: url(../img/obelisco-bs-as.jpg) no-repeat right center fixed;
+}
+body {
+	width: 100%;
+	position: absolute;
+	color: #47565f;
+}
+.left {
+	width: 200px;
+	float: left;
+	top: 65px;
+	position: fixed;
+}
+.left * {
+	color: #fff;
+}
+.right {
+	width: 600px;
+	float: right;
+}
+.layout {
+	width: 815px;
+	position: relative;
+	margin: 0 auto;
+}
+.navigation_background {
+	background-color: #364180;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 5;
+}
+.navigation {
+	width: 860px;
+	position: relative;
+	top: -5px;
+	margin: 0 auto;
+}
+.navigation img {
+	position: relative;
+	margin: 10px 15px -13px 20px;
+}
+.navigation a {
+	color: #fff;
+	display: inline-block;
+	margin-right: 35px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+.navigation a:hover {
+	color: #b8d2f7;
+}
+.lang {
+	position: relative;
+	background: #009BD4;
+	width: 180px;
+	z-index: 10;
+	padding: 10px 10px 1px;
+}
+.lang a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0 0 10px;
+}
+.content {
+	width: 600px;
+	position: relative;
+	margin: 30px auto 0;
+}
+h1, h1 span {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #4EA7F2;
+	margin: -7px 0 15px;
+	letter-spacing: -3px;
+}
+h1 span {
+	color: #FFB40E;
+	font-size: 36px;
+}
+h2 {
+	font-size: 18px!important;
+	color: #364180!important;
+	font-weight: 700;
+	margin: 15px 0 10px;
+}
+.left h2 {
+	color: #fff!important;
+}
+.block {
+	background: #fff;
+	clear: both;
+	margin: 0 0 15px;
+	padding: 30px;
+}
+.head {
+	background: #043A56 url(../img/banner-tuba2015.png) no-repeat left bottom;
+	width: 600px;
+	position: relative;
+	text-align: right;
+	height: 350px;
+	z-index: 2;
+	top: 15px;
+	margin: 50px auto 0;
+}
+.headline {
+	font-family: Kimberley, sans-serif;
+	line-height: 60px;
+	position: relative;
+	right: 30px;
+	top: 15px;
+	font-size: 60px;
+	color: #fff;
+}
+.date {
+	width: 200px;
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+}
+.attendees {
+	margin-top: 15px;
+}
+.attendees div {
+	width: 50%;
+	display: inline-block;
+}
+.company {
+	font-size: 10px;
+	font-style: italic;
+	padding-left: 5px;
+}
+.column {
+	width: 50%;
+	display: block;
+	float: left;
+}
+.button {
+	background: #4EA7F2;
+	color: #fff;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 25px;
+}
+.anchor {
+	position: relative;
+	margin-top: -100px;
+	padding-bottom: 100px;
+	display: block;
+	visibility: hidden;
+}
+.clear {
+	clear: both;
+}
+.footer {
+	font-size: 12px;
+	color: #fff;
+	line-height: 140%;
+	padding: 0 0 20px;
+}
+.footer * {
+	font-size: 12px;
+	color: #fff;
+	font-weight: 400;
+}
+.head, .block, .lang, .navigation_background {
+	box-shadow: 2px 2px 2px -2px #000;
+}
+.lanyrd-people-list {
+	position: relative;
+	top: -15px;
+	height: 60px !important;
+	margin-bottom: -10px !important;
+}
+.vevent {
+	position: relative;
+	height: auto;
+	margin-bottom: 5px !important;
+	border-bottom: 1px solid #009BD4
+}
+.vevent h3 {
+	display: inline-block;
+	width: 100%;
+}
+span.opener {
+	display: block;
+	font-size: 10px;
+}
+span.name, span.name a, span.opener * {
+	font-size: 10px !important;
+}
